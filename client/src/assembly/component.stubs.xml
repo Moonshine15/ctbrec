@@ -1,0 +1,16 @@
+<component>
+    <files>
+        <file>
+            <source>${project.basedir}/jre/put-jre-files-here</source>
+            <outputDirectory>ctbrec/jre</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/browser/put-browser-files-here</source>
+            <outputDirectory>ctbrec/lib/browser</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/ffmpeg/put-ffmpeg-binary-here</source>
+            <outputDirectory>ctbrec/lib/ffmpeg</outputDirectory>
+        </file>
+    </files>
+</component>

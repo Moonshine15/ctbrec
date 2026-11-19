@@ -1,0 +1,9 @@
+<component>
+    <files>
+        <file>
+            <source>${project.basedir}/ffmpeg/ffmpeg-linux64</source>
+            <outputDirectory>ctbrec/lib/ffmpeg</outputDirectory>
+            <destName>ffmpeg</destName>
+        </file>
+    </files>
+</component>

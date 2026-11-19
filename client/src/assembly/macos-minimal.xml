@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>macos-minimal</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <componentDescriptors>
+        <componentDescriptor>src/assembly/component.ctbrec.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.ctbrec-macos.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.stubs.xml</componentDescriptor>
+    </componentDescriptors>
+</assembly>

@@ -1,0 +1,17 @@
+<component>
+    <files>
+        <file>
+            <source>${project.build.directory}/ctbrec.exe</source>
+            <outputDirectory>ctbrec</outputDirectory>
+        </file>
+        <file>
+            <source>${project.build.directory}/ctbrec-no-splash.exe</source>
+            <outputDirectory>ctbrec</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/src/assembly/ctbrec.bat</source>
+            <outputDirectory>ctbrec</outputDirectory>
+            <filtered>true</filtered>
+        </file>
+    </files>
+</component>

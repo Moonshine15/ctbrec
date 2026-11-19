@@ -1,0 +1,25 @@
+<component>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>ctbrec/lib</outputDirectory>
+            <useProjectArtifact>false</useProjectArtifact>
+            <unpack>false</unpack>
+            <scope>runtime</scope>
+        </dependencySet>
+    </dependencySets>
+    <files>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
+            <outputDirectory>ctbrec</outputDirectory>
+            <destName>${name.final}.jar</destName>
+        </file>
+        <file>
+            <source>${project.basedir}/LICENSE.txt</source>
+            <outputDirectory>ctbrec</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/README.md</source>
+            <outputDirectory>ctbrec</outputDirectory>
+        </file>
+    </files>
+</component>

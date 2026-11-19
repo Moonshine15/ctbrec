@@ -1,0 +1,12 @@
+<component>
+    <fileSets>
+        <fileSet>
+            <directory>jre/jdk_linux</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+            <outputDirectory>ctbrec/jre</outputDirectory>
+            <filtered>false</filtered>
+        </fileSet>
+    </fileSets>
+</component>

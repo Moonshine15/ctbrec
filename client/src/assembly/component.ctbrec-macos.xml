@@ -1,0 +1,20 @@
+<component>
+    <files>
+        <file>
+            <source>${project.basedir}/src/assembly/ctbrec-macos-jre.sh</source>
+            <outputDirectory>ctbrec</outputDirectory>
+            <filtered>true</filtered>
+            <destName>ctbrec.sh</destName>
+        </file>
+        <file>
+            <source>${project.basedir}/src/assembly/ctbrec-macos-jre-no-splash.sh</source>
+            <outputDirectory>ctbrec</outputDirectory>
+            <filtered>true</filtered>
+            <destName>ctbrec-no-splash.sh</destName>
+        </file>
+        <file>
+            <source>${project.basedir}/src/main/resources/splash.png</source>
+            <outputDirectory>ctbrec</outputDirectory>
+        </file>
+    </files>
+</component>

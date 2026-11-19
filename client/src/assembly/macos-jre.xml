@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>macos-jre</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <componentDescriptors>
+        <componentDescriptor>src/assembly/component.ctbrec.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.ctbrec-macos.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.jre-macos.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.ffmpeg-macos.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.browser-macos.xml</componentDescriptor>
+    </componentDescriptors>
+</assembly>

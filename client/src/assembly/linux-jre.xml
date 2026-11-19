@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>linux-jre</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <componentDescriptors>
+        <componentDescriptor>src/assembly/component.ctbrec.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.ctbrec-linux.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.jre-linux.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.ffmpeg-linux.xml</componentDescriptor>
+        <componentDescriptor>src/assembly/component.browser-linux.xml</componentDescriptor>
+    </componentDescriptors>
+</assembly>

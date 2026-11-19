@@ -1,0 +1,12 @@
+<component>
+    <fileSets>
+        <fileSet>
+            <directory>browser/ctbrec-minimal-browser-linux-x64</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+            <outputDirectory>ctbrec/lib/browser</outputDirectory>
+            <filtered>false</filtered>
+        </fileSet>
+    </fileSets>
+</component>
